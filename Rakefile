@@ -1,5 +1,5 @@
 desc 'Default task'
-task :default => 'blog:build'
+task default: %w[blog:build]
 
 namespace :blog do
   desc 'Build blog'
